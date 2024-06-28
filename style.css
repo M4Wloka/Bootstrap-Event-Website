@@ -1,0 +1,183 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap";
+
+
+body {
+  font-family: Poppins, sans-serif;
+  scroll-behavior: smooth;
+}
+
+ul.nav {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+
+.parallax-container {
+    width: 100%;
+    display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30%;
+  background-attachment: fixed;
+  background-image: url(/img/bg_3.jpg);
+  background-position: center;
+  background-size: cover;
+  row-gap: 1rem;
+
+  text-align: center;
+}
+
+.buffer {
+  width: 100%;
+  min-height: 60vh;
+}
+
+.parallax-container2 {
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  padding: 6rem 0;
+  background-image: url(/img/bg.jpg);
+  gap: 1.6em;
+}
+
+.parallax-container3 {
+    width: 100%;
+    min-height: 100vh; 
+    padding-bottom: 15%;
+    background-image: url(/img/bg_2.jpg);
+    background-position: center;
+    background-size: cover;
+    row-gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+h1 {
+  font-size: 6rem;
+  font-weight: 900;
+  color: #1c4603;
+}
+
+
+p {
+  max-width: 55ch;
+  padding: 1em;
+  line-height: 1.5;
+  color: #000000;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+a {
+  display: inline-block;
+  padding: 1em 3.5em;
+  border-radius: 0.3em;
+  background-color: var(--color);
+  color: rgb(179, 36, 36);
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin-top: 1em;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #1c4603;
+}
+
+.card, .card-test {
+    display: flex;
+    max-width: 320px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-radius: 0.5em;
+    background-color: white;
+    box-shadow: 0 29px 38px -15px rgb(0 0 0 / 43%);
+}
+
+.card-img, .card-test-img {
+    width: 100%;
+    height: 200px;
+    border-radius: 0.3em;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.card:nth-of-type(1) .card-img {
+    background-image: url(https://cdn.pixabay.com/photo/2020/03/05/16/07/happy-birthday-4904779_1280.jpg);
+}
+
+.card:nth-of-type(2) .card-img {
+    background-image: url(https://cdn.pixabay.com/photo/2017/09/25/09/35/wedding-2784455_1280.jpg);
+}
+
+.card:nth-of-type(3) .card-img {
+    background-image: url(https://cdn.pixabay.com/photo/2022/06/19/15/49/table-setting-7272200_1280.jpg);
+}
+
+.card:nth-of-type(4) .card-img {
+    background-image: url(https://cdn.pixabay.com/photo/2017/10/04/14/12/auditorium-2816353_1280.jpg);
+}
+
+.card-test:nth-of-type(1) .card-test-img {
+    background-image: url(./img/img_5.jpg);
+}
+
+.card-test:nth-of-type(2) .card-test-img {
+    background-image: url(./img/img_6.jpg);
+}
+
+.card-test:nth-of-type(3) .card-test-img {
+    background-image: url(./img/img_7.jpg);
+}
+
+#myCarousel {
+    /* max-width: 100%;  */
+    margin: 0 auto; 
+}
+
+.carousel-inner .carousel-item img {
+    max-height: 600px; 
+    object-fit: cover; 
+}
+
+.carousel-inner p {
+    color: black;
+    font-size: 20px;
+    text-align: center; /* Center text within carousel items */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: auto; 
+    top: 50%; 
+    transform: translateY(-50%);
+}
+
+
+
+
+
+.text-secondary {
+    color: #000000; /* Adjust text color */
+}
+
+.link-secondary {
+    color: #000000; /* Adjust link color */
+}
+
+#site-footer .bg-success {
+    background-color: white; /* Change this to the color you want */
+}
