@@ -171,13 +171,10 @@ h3 {
 
 
 .text-secondary {
-    color: #000000; /* Adjust text color */
+    color: #000000; 
 }
 
 .link-secondary {
-    color: #000000; /* Adjust link color */
+    color: #000000; 
 }
 
-#site-footer .bg-success {
-    background-color: white; /* Change this to the color you want */
-}
